@@ -7,9 +7,7 @@ console.log('私のニックネームは' + nickname + 'です。年齢は' + ag
 
 //Q2
 let languages = ['JavaScript', 'PHP', 'Ruby', 'Python', 'Go'];
-let template1 = languages[0];
-let template2 = languages[3];
-let templateText = `私の好きな言語は${template1}です。次は${template2}を勉強してみたいです。`;
+let templateText = `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`;
 console.log(templateText);
 
 //Q3
@@ -46,8 +44,8 @@ let JohnAge = playerList[0].age;
 let BobAge = playerList[1].age;
 let MichaelAge = playerList[2].age;
 const ages = [JohnAge, BobAge, MichaelAge];
-let numAve = JohnAge + BobAge + MichaelAge;
-const average = numAve / ages.length;
+let sum = JohnAge + BobAge + MichaelAge;
+const average = sum / ages.length;
 console.log(average);
 
 //Q6
@@ -118,8 +116,7 @@ console.log(x + 'を' + y + 'で割った余りは' + number + 'です。');
 
 //JavaScript応用問題
 //Q1
-let round = Math.floor(Math.random() *11);
-
+let round = Math.floor(Math.random() *10);
 console.log(round);
 
 //Q2
