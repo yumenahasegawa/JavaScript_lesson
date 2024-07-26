@@ -1,7 +1,7 @@
 //JavaScript問題
 //Q1
 let nickname = 'ゆめな';
-let age = '23';
+let age = 23;
 
 console.log('私のニックネームは' + nickname + 'です。年齢は' + age +'歳です。');
 
@@ -69,7 +69,7 @@ user.sayHello = function() {
 
 user.sayHello();
 
-console.log(user, user.length);
+console.log(user);
 
 //Q8
 let calc = {};
@@ -124,6 +124,13 @@ setTimeout(function() {
   console.log('Hello World!');
 },
   3000);
+
+// 処理を共通化しつつ、その時々でやりたいことをやれる。
+
+// function setTimeout(callback, ms) {
+//   // ms待つ
+//   callback()
+// }
 
 //Q3
 let num = 3;
